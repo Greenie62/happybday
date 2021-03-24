@@ -133,6 +133,10 @@ background:black;
     
 }
 
+.h3letter{
+    opacity:0;
+}
+
 
 footer{
     text-align:center;
@@ -144,3 +148,41 @@ footer > p{
     top:10px;
     color:silver;
 }
+
+.scoreCard{
+    height:40%;
+    width:85%;
+    /* border:2px solid red; */
+    position:absolute;
+    top:25%;
+    left:8%;
+    border-radius:5%;
+    background:var(--background);
+    display:flex;
+    opacity:0;
+    transition:1s ease;
+}
+
+.scoreColumn{
+    flex:1;
+    height:100%;
+    /* border:1px solid purple; */
+    text-align:center;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content: space-evenly;
+}
+
+.dogImage{
+    height:100%;
+    width:100%;
+}
+
+.dogpic{
+    height:100%;
+    width:100%;
+    border-radius:5%;
+
+}
+
