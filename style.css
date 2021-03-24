@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position:relative;
+}
+
+:root{
+    /* --background:linear-gradient(to right,rgb(58, 58, 224),rgb(23, 23, 221)); */
+    --background:linear-gradient(to right,pink,red)
+}
+
+
+header,
+ footer{
+    height:20vh;
+    width:100%;
+    background:var(--background)
+}
+
+.headerh1, .headerh3{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.headerh1{
+    text-shadow:1px 1px 1px white;
+    /* text-align:center; */
+    letter-spacing:15px;
+    font-size:40px;
+    top:15%;
+    left:8%;
+}
+
+.headerh3{
+    top:45%;
+    left:45%;
+    color:silver;
+}
+
+.candleRow{
+    width:100%;
+    height:30%;
+    /* background:red; */
+    top:70%;
+    display:flex;
+    align-items:flex-end;
+    justify-content: space-evenly;
+}
+
+.candle{
+    height:60%;
+    width:5px;
+    background:black;
+}
+
+.flame{
+    height:60%;
+    width:8px;
+    border-radius:45%;
+    background:linear-gradient(red,orange,yellow);
+    left:-2px;
+    top:-5px;
+ 
+}
+
+
+
+
+.crosswordBody{
+    height:75vh;
+    width:100%;
+    background:rgb(199, 191, 191);
+}
+
+
+.crossWord{
+    width:85%;
+    height:65%;
+    border:1px solid black;
+    top:10%;
+    left:8%;
+    display:grid;
+    grid-template-columns:repeat(9,1fr)
+}
+
+.gametile{
+    border:1px solid black;
+    height:100%;
+    width:100%;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.emptyTile{
+background:black;
+}
+
+.letterTile{
+    background:white;
+}
+
+
+.questionFlex{
+    width:90%;
+    height:22%;
+    top:0;
+    border:1px solid black;
+    left:5%;
+    top:12%;
+    display:flex;
+}
+
+.column{
+    flex:1;
+    height:100%;
+    border:1px solid black;
+}
+
+
+.columnTitle{
+    text-align:center;
+}
+
+.columnBody{
+    width:100%;
+    height:90%;
+    text-align:center;
+    
+}
+
+
+footer{
+    text-align:center;
+    height:5vh;
+    width:100%;
+}
+
+footer > p{
+    top:10px;
+    color:silver;
+}
